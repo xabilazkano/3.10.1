@@ -1,7 +1,2 @@
-xabi 1234567r<
+xabi 1234567q<
 peru 7654321q<
-ane 1234567r<
-iñaki 1234567q<
-antton 1234567q<
-ibai 1234567q<
-mikel 1234567q<

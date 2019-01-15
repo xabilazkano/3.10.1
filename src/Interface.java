@@ -12,17 +12,16 @@ public class Interface {
 		Scanner sc = new Scanner(System.in);
 		boolean play = true;
 		File file = new File("users.txt");
-		
+
 		FileWriter write = new FileWriter(file, true);
 		Scanner sc2 = new Scanner(file);
 
 		while (sc2.hasNextLine()) {
-			
 
 			String[] data = sc2.nextLine().split(" ");
-			System.out.println(data[0]);
-			User load = new User(data[0],data[1]);
-			
+
+			User load = new User(data[0], data[1]);
+
 			users.register(load);
 
 		}
