@@ -101,7 +101,7 @@ public class Interface {
 							break;
 
 						case "2":
-							System.out.println("Bye!");
+							System.out.println("Bye "+ username+"!");
 							flag = false;
 						}
 					}
@@ -109,6 +109,7 @@ public class Interface {
 				break;
 
 			case "3":
+				System.out.println("Bye!");
 				play = false;
 				break;
 			}
